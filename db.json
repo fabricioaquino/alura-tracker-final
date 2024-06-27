@@ -1,0 +1,49 @@
+{
+  "projetos": [
+    {
+      "id": 1,
+      "nome": "Alura Tracker "
+    },
+    {
+      "nome": "Laravel",
+      "id": 2
+    },
+    {
+      "nome": "JS",
+      "id": 3
+    },
+    {
+      "nome": "Symfony",
+      "id": 4
+    }
+  ],
+  "tarefas": [
+    {
+      "id": 1,
+      "duracaoEmSegundos": 120,
+      "descricao": "Configuração do PHP",
+      "projeto": {
+        "id": 1,
+        "nome": "Alura Tracker"
+      }
+    },
+    {
+      "duracaoEmSegundos": 4,
+      "descricao": "Refatoração php ",
+      "projeto": {
+        "id": 1,
+        "nome": "Alura Tracker"
+      },
+      "id": 2
+    },
+    {
+      "duracaoEmSegundos": 7,
+      "descricao": "Teste Js",
+      "projeto": {
+        "nome": "JS",
+        "id": 3
+      },
+      "id": 3
+    }
+  ]
+}
